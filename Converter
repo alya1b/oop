@@ -1,0 +1,59 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+class Converter
+{
+    public Converter(double _usd, double _eur)
+    {
+        usd = _usd;
+        eur = _eur;
+    }
+    public double usd;
+    public double eur;
+
+    public double USD_UAH(double _usd)
+    {
+        return _usd * usd;
+    }
+    public double EUR_UAH(double _eur)
+    {
+        return _eur * eur;
+    }
+    public double UAH_USD(double _uah)
+    {
+        return _uah / usd;
+    }
+    public double UAH_EUR(double _uah)
+    {
+        return _uah / eur;
+    }
+}
+namespace dzConverter
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Converter conv = new Converter(26.2, 30.3);
+            int uah;
+            int usd;
+            int eur;
+            Console.Write("Enter uah:");
+            uah = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(conv.UAH_USD(uah));
+            Console.WriteLine(conv.UAH_EUR(uah));
+
+            Console.Write("Enter eur:");
+            eur = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(conv.EUR_UAH(eur));
+
+            Console.Write("Enter usd:");
+            usd = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(conv.USD_UAH(usd));
+
+        }
+    }
+}
