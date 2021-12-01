@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<workers>
+	<worker>
+		<name>Hanna Smith</name>
+		<department>KPI</department>
+		<cathedra>Computer Science</cathedra>
+		<date>11.15.1970</date>
+		<degree>assistant</degree>
+		<gender>female</gender>
+	</worker>
+	<worker>
+		<name>Harchenko Ihor Ivanovich</name>
+		<department>KNU</department>
+		<cathedra>Computer Science</cathedra>
+		<date>15.02.1950</date>
+		<degree>professor</degree>
+		<gender>male</gender>
+	</worker>
+	<worker>
+		<name>Henry Black</name>
+		<department>KNU</department>
+		<cathedra>Journalism</cathedra>
+		<date>01.01.1980</date>
+		<degree>professor</degree>
+		<gender>male</gender>
+	</worker>
+	<worker>
+		<name>Stavrovsiy Andriy Borisovich</name>
+		<department>KNU</department>
+		<cathedra>Computer Science</cathedra>
+		<date>01.01.1960</date>
+		<degree>professor</degree>
+		<gender>male</gender>
+	</worker>
+	<worker>
+		<name>Kate Freeman</name>
+		<department>KPI</department>
+		<cathedra>Computer Science</cathedra>
+		<date>01.01.1980</date>
+		<degree>assistant</degree>
+		<gender>female</gender>
+	</worker>
+	<worker>
+		<name>Rick Sanchez</name>
+		<department>Kyiv Mohyla</department>
+		<cathedra>Computer Science</cathedra>
+		<date>01.01.1980</date>
+		<degree>assistant</degree>
+		<gender>male</gender>
+	</worker>
+	<worker>
+		<name>Eren Jaeger</name>
+		<department>KPI</department>
+		<cathedra>Journalism</cathedra>
+		<date>01.01.1980</date>
+		<degree>laborant</degree>
+		<gender>male</gender>
+	</worker>
+	<worker>
+		<name>Luna Grigorenko</name>
+		<department>KNU</department>
+		<cathedra>Journalism</cathedra>
+		<date>01.01.1980</date>
+		<degree>professor</degree>
+		<gender>female</gender>
+	</worker>
+	<worker>
+		<name>Lila Elric</name>
+		<department>KNU</department>
+		<cathedra>Computer Science</cathedra>
+		<date>01.01.1980</date>
+		<degree>assistant</degree>
+		<gender>female</gender>
+	</worker>
+	<worker>
+		<name>Hanna Smith</name>
+		<department>KNU</department>
+		<cathedra>Computer Science</cathedra>
+		<date>01.01.1980</date>
+		<degree>assistant</degree>
+		<gender>female</gender>
+	</worker>
+</workers>
