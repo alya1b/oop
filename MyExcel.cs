@@ -39,11 +39,6 @@ namespace oopLaba1
         private const string ERROR_DEPENDENCIES_ROW = "У таблиці наявні посилання на комірки рядку, який ви намагаєтеся видалити. Будь ласка, видаліть їх та спробуйте ще раз";
         private const string ERROR_DEPENDENCIES_COL = "У таблиці наявні посилання на комірки стовпчика, який ви намагаєтеся видалити. Будь ласка, видаліть їх та спробуйте ще раз";
 
-        private const string FPATH_LOOKUP = "D:\\Женя\\Projects\\C# Projects\\Lab2\\Info\\lookup.txt";
-        private const string FPATH_ERRORS = "D:\\Женя\\Projects\\C# Projects\\Lab2\\Info\\errors.txt";
-        private const string FPATH_FEATURES = "D:\\Женя\\Projects\\C# Projects\\Lab2\\Info\\features.txt";
-        private const string FPATH_CREDITS = "D:\\Женя\\Projects\\C# Projects\\Lab2\\Info\\credits.txt";
-
         private string _currentFilePath = "";
         private bool _formulaView = false;
         private bool _errorOccured = false;
